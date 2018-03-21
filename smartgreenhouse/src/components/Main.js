@@ -58,7 +58,7 @@ export default class Main extends React.Component {
 	render() {
 		return (
 			<div className="mainContainer">
-				{/* {this.state.data.map((item, key) => <p key={key}>{item}</p>)} */}
+				{this.state.data.map((item, key) => <p key={key}>{item}</p>)}
 				<button onClick={this._logout}>logout</button>
 			</div>
 		);
